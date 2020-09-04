@@ -1,4 +1,4 @@
-package Exercicios
+package aula0209.exercicios
 
 fun comparaString(s1: String, s2: String): Boolean{
     return s1 != s2

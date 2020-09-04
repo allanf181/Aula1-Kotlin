@@ -1,4 +1,4 @@
-package Exercicios
+package aula0209.exercicios
 
 fun ex5(numA: Int, numB: Int, numC: Int, numD: Int): Boolean {
     return (numA > numC && numA > numD) || (numB > numC && numB > numD)

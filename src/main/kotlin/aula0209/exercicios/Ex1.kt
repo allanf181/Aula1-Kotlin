@@ -1,7 +1,9 @@
-package Exercicios
+package aula0209.exercicios
+
+import kotlin.math.max
 
 fun maiorNumero(n1: Int, n2: Int, n3: Int): Int {
-    return intArrayOf(n1,n2,n3).maxOrNull()!!
+    return max(n1,max(n2,n3))
 }
 
 fun main() {

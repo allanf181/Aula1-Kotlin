@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>aula0409.exercicios.ex5.uml</OriginalElement>
+  <nodes>
+    <node x="264.0" y="22.0">aula0409.exercicios.ex5.uml.Cliente</node>
+    <node x="0.0" y="0.0">aula0409.exercicios.ex5.uml.Veiculo</node>
+    <node x="136.83333333333334" y="215.0">aula0409.exercicios.ex5.uml.Venda</node>
+    <node x="108.5" y="386.0">aula0409.exercicios.ex5.uml.Concessionaria</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="aula0409.exercicios.ex5.uml.Concessionaria" target="aula0409.exercicios.ex5.uml.Venda">
+      <point x="0.0" y="-38.5" />
+      <point x="250.5" y="361.0" />
+      <point x="245.83333333333334" y="361.0" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="aula0409.exercicios.ex5.uml.Concessionaria" target="aula0409.exercicios.ex5.uml.Cliente">
+      <point x="94.66666666666669" y="-38.5" />
+      <point x="345.1666666666667" y="361.0" />
+      <point x="383.5625" y="361.0" />
+      <point x="383.5625" y="190.0" />
+      <point x="432.3333333333333" y="190.0" />
+      <point x="67.33333333333331" y="60.5" />
+    </edge>
+    <edge source="aula0409.exercicios.ex5.uml.Venda" target="aula0409.exercicios.ex5.uml.Cliente">
+      <point x="81.75" y="-60.5" />
+      <point x="327.58333333333337" y="190.0" />
+      <point x="365.0" y="190.0" />
+      <point x="-1.4210854715202004E-14" y="60.5" />
+    </edge>
+    <edge source="aula0409.exercicios.ex5.uml.Concessionaria" target="aula0409.exercicios.ex5.uml.Veiculo">
+      <point x="-94.66666666666669" y="-38.5" />
+      <point x="155.83333333333331" y="361.0" />
+      <point x="112.77083333333334" y="361.0" />
+      <point x="112.77083333333334" y="190.0" />
+      <point x="40.666666666666686" y="190.0" />
+      <point x="-81.33333333333331" y="82.5" />
+    </edge>
+    <edge source="aula0409.exercicios.ex5.uml.Venda" target="aula0409.exercicios.ex5.uml.Veiculo">
+      <point x="-81.75" y="-60.5" />
+      <point x="164.08333333333334" y="190.0" />
+      <point x="122.0" y="190.0" />
+      <point x="0.0" y="82.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="118.5" y="191.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -4,7 +4,9 @@ abstract class Conta (var cliente: Cliente) {
 
     protected var saldo: Double = 0.0
 
-    abstract fun depositar(valor: Double)
+    fun depositar(valor: Double) {
+        saldo += valor
+    }
 
     abstract fun sacar(valor: Double)
 

@@ -2,12 +2,8 @@ package aula0909.exercicios.santander
 
 class ContaPoupanca(cliente: Cliente, var taxaDeJuros: Double) : Conta(cliente) {
 
-    override fun depositar(valor: Double) {
-        saldo += valor
-    }
-
     override fun sacar(valor: Double) {
-        if (valor < saldo) {
+        if (valor > saldo) {
             println("Saldo insuficiente")
         } else {
             saldo -= valor
@@ -19,6 +15,6 @@ class ContaPoupanca(cliente: Cliente, var taxaDeJuros: Double) : Conta(cliente) 
     }
 
     fun recolherJuros() {
-        saldo *= 1 + taxaDeJuros
+        saldo *= 1 + taxaDeJuros/100
     }
 }
